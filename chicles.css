@@ -16,9 +16,6 @@
     font-family: 'neue_plak_text', sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-  }
-
   h1, h2 {
     text-align: center;
     color: #ffffff;
@@ -153,3 +150,26 @@
       left: 0%;
     }
   }
+
+  /* index timeline */
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.year-link a {
+  text-decoration: none;
+}
+
+.year-section {
+  min-width: 100%;
+}
+
+.year-section h2 {
+  text-align: left;
+}
+
+hr {
+  color: rgba(247, 212, 247, 0.68);
+}
